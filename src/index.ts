@@ -2,8 +2,10 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
+
 const SWYTCHCODE_BASE_URL = "https://api.swytchcode.com/v1";
 const USER_AGENT = "swytchcode/1.0.0";
+const SWYTCHCODE_API_KEY = ""
 
 // Create server instance
 const server = new McpServer({
@@ -27,7 +29,7 @@ async function apiCall<T>(url: string, body: any): Promise<T | null> {
         "User-Agent": USER_AGENT,
         Accept: "application/json",
         "Content-Type": "application/json",
-        "X-API-Key": process.env.SWYTCHCODE_API_KEY || "",
+        "X-Api-Key": SWYTCHCODE_API_KEY,
     };
 
 

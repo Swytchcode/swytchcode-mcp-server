@@ -33,10 +33,9 @@ chmod +x api_key.sh
 ```
 
 
-Rename `.env.sample` file to `.env` and paste the obtained key
-
+Replace the value with your actual key in `index.ts` file
 ```sh
-SWYTCHCODE_API_KEY=YOUR_API_KEY
+const SWYTCHCODE_API_KEY = "YOUR KEY"
 ```
 
 ## Installation
