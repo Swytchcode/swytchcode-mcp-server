@@ -17,6 +17,11 @@
 * _SWYTCHCODE_API_KEY_: To interact with Sywtchcode APIs, you'll need to have an [account with Swytchcode](https://docs.swytchcode.com/quickstart/account/).
 
 ## Obtain Swytchcode API Key
+Open `api_key.sh` file and replace the following parameters with your own
+```sh
+EMAIL="USERNAME"
+PASSWORD="PASSWORD"
+```
 
 Run the following command to obtain the Swytchcode API key
 ```sh
