@@ -1,6 +1,17 @@
 # Swytchcode MCP server
 [Model Context Protocol (MCP)](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) server implementation  to interact with Swytchcode.
 
+## Index
+1. [Requirements](#requirements)
+2. [Obtain Swytchcode API Key](#obtain-swytchcode-api-key)
+3. [Installation](#installation)
+4. [Configuration with Claude Desktop](#configuration-with-claude-desktop)
+    - [Mac/Linux](#maclinux)
+    - [Windows](#windows)
+5. [Invoking from Claude Desktop](#invoking-from-claude-desktop)
+
+    
+
 ## Requirements
 * [Node.js](https://nodejs.org/en)
 * _SWYTCHCODE_API_KEY_: To interact with Sywtchcode APIs, you'll need to have an [account with Swytchcode](https://docs.swytchcode.com/quickstart/account/).
