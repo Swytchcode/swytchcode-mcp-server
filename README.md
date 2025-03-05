@@ -32,6 +32,8 @@ chmod +x api_key.sh
 ./api_key.sh
 ```
 
+**Note:** Ensure `jq` is installed on your system
+
 
 Replace the value with your actual key in `index.ts` file
 ```sh
